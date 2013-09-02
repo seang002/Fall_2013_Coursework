@@ -1,4 +1,2 @@
-BIOL6308 - Computational Methods I
-==================================
-
-Fall 2013
+BIOL6308 13880 Bioinformatics Computational Methods 1 SEC 01 - Fall 2013
+========================================================================
