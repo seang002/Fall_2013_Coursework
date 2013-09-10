@@ -1,0 +1,21 @@
+<molecule>
+ <atomArray>
+  <atom id="a1" elementType="O" x3="-1.310665" y3="2.119314" z3="-0.992533"/>
+  <atom id="a2" elementType="O" x3="-1.630587" y3="-0.102818" z3="-0.863157"/>
+  <atom id="a3" elementType="P" x3="-3.310273" y3="-0.067161" z3="-1.263975"/>
+  <atom id="a4" elementType="O" x3="-2.818574" y3="-1.660495" z3="-0.777135"/>
+  <atom id="a5" elementType="O" x3="-2.724656" y3="0.220416" z3="-2.674917"/>
+  <atom id="a6" elementType="O" x3="-4.048755" y3="-1.308771" z3="-2.228557"/>
+  <atom id="a7" elementType="H" x3="-5.019096" y3="-1.238558" z3="-2.034100"/>
+  <atom id="a8" elementType="C" x3="-0.845683" y3="1.004935" z3="-0.809642"/>
+ </atomArray>
+ <bondArray>
+  <bond atomRefs2="a2 a3" order="1"/>
+  <bond atomRefs2="a3 a4" order="1"/>
+  <bond atomRefs2="a3 a5" order="2"/>
+  <bond atomRefs2="a3 a6" order="1"/>
+  <bond atomRefs2="a6 a7" order="1"/>
+  <bond atomRefs2="a8 a2" order="1"/>
+  <bond atomRefs2="a8 a1" order="2"/>
+ </bondArray>
+</molecule>
