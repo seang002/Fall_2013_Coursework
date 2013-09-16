@@ -1,0 +1,74 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage{chemfig}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{adjustbox}
+\renewcommand{\arraystretch}{2.0}
+\renewcommand{\tabcolsep}{12pt}
+\begin{document}
+\pagenumbering{gobble}
+\begin{table}[p]
+\centering
+\begin{tabular}{ccc}
+\chemnameinit{\chemfig{R-N(-[2]H)(-C(=[6]\llap{${}^+$}N(-[5]H)(-[7]H))(-N(-[1]H)(-[7]H)))}}
+\chemname{\chemfig{R-C(-[2]H)(-[6]H)(-H)}}{Methyl}
+& 
+\chemnameinit{\chemfig{R-N(-[2]H)(-C(=[6]\llap{${}^+$}N(-[5]H)(-[7]H))(-N(-[1]H)(-[7]H)))}}
+\chemname{\chemfig{R^{1}-O-R^{2}}}{Ether}
+&
+\chemname{\chemfig{R-N(-[2]H)(-C(=[6]\llap{${}^+$}N(-[5]H)(-[7]H))(-N(-[1]H)(-[7]H)))}}{Guanidinium}
+\\
+\chemnameinit{\chemfig{[:-90]C*5(-HN-C(-H)=N-[,,1,1]CH=)-[4]R}}
+\chemname{\chemfig{R-C(-[2]H)(-[6]H)(-C(-[2]H)(-[6]H)(-H))}}{Ethyl}
+&
+\chemnameinit{\chemfig{[:-90]C*5(-HN-C(-H)=N-[,,1,1]CH=)-[4]R}}
+\chemname{\chemfig{R^{1}-C(=[6]O)(-O-R^{2})}}{Ester}
+&
+\chemname{\chemfig{[:-90]C*5(-HN-C(-H)=N-[,,1,1]CH=)-[4]R}}{Imidazole}
+\\
+\chemnameinit{\chemfig{R-O-C(=[6]O)(-C(-[2]H)(-[6]H)(-H))}}
+\chemname{\chemfig{R-C*6(=\chembelow{C}{H}-\chembelow{C}{H}=CH-\chemabove{C}{H}-\chemabove{C}{H}-)}}{Phenyl}
+&
+\chemname{\chemfig{R-O-C(=[6]O)(-C(-[2]H)(-[6]H)(-H))}}{Acetyl}
+&
+\chemnameinit{\chemfig{R-O-C(=[6]O)(-C(-[2]H)(-[6]H)(-H))}}
+\chemname{\chemfig{R-S-H}}{Sulfhydryl}
+\\
+\chemname{\chemfig{R-C(=[6]O)(-H)}}{Carbonyl (aldehyde)}
+&
+\chemname{\chemfig{R^{1}-C(=[6]O)(-O-C(=[6]O)(-R^{2}))}}{Anhydride (two carboxylic acids)}
+&
+\chemnameinit{\chemfig{R-C(=[6]O)(-H)}} 
+\chemname{\chemfig{R^{1}-S-S-R^{2}}}{Disulfide}
+\\
+\chemname{\chemfig{R^1-C(=[6]O)(-R^2)}}{Carbonyl (ketone)}
+&
+\chemname{\chemfig{R-N\rlap{${}^+$}(-[2]H)(-[6]H)(-H)}}{Amino (protonated)}
+&
+\chemname{\chemfig{R^{1}-C(=[6]O)(-S-R^{2})}}{Thioester}
+\\
+\chemname{\chemfig{R-C(=[6]O)(-O^{-})}}{Carboxyl}
+& 
+\chemname{\chemfig{R-C(=[6]O)(-N(-[1]H)(-[7]H))}}{Amido}
+& 
+\chemname{\chemfig{R-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-OH)}}{Phosphoryl}
+\\
+\chemnameinit{\chemfig{R^{1}-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-R^{2}))}}
+\chemname{\chemfig{R-O-H}}{Hydroxyl (Alcohol)}
+&
+\chemnameinit{\chemfig{R^{1}-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-R^{2}))}}
+\chemname{\chemfig{R^{1}-C(=[2]N-[2]H)(-R^{2})}}{Imine}
+& 
+\chemname{\chemfig{R^{1}-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-R^{2}))}}{Phosphoanhydride}
+\\
+\chemnameinit{\chemfig{R-C(=[6]O)(-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-OH))}}
+\chemname{\chemfig{R-C(-[2]O-H)(=C(-[1]H)(-[7]H))}}{Enol}
+&
+\chemnameinit{\chemfig{R-C(=[6]O)(-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-OH))}}
+\chemname{\chemfig{R^{1}-C(=[2]N-[2]R\rlap{${}^3$})(-R^{2})}}{N-Substituted imine}
+&
+\chemname{\chemfig{R-C(=[6]O)(-O-P(-[2]O\rlap{${}^-$})(=[6]O)(-OH))}}{Mixed anhydride}
+\\
+\end{tabular}
+\caption{Some common functional groups of biomolecules.}
+\end{table}
+\end{document}
