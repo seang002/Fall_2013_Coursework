@@ -34,10 +34,10 @@ my $infile = "numbers.txt";
 # the output array, initialized as an empty array
 my @arr = ();
 # open the file or die trying!
-open(my $INFILE, "<$infile") or die "Couldn't open $infile for reading. $!\n";
+open(INFILE, "<$infile") or die "Couldn't open $infile for reading. $!\n";
 # read in one line at a time and split it on tabs, toss the contents into an array
 # called @line and push that array onto the output array.
-while (<$INFILE>) {
+while (<INFILE>) {
     chomp;
     my @line = split(/\t/, $_);
     push(@arr, @line);
