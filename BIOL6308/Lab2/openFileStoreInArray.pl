@@ -29,21 +29,21 @@ use strict;
 # place filename in a variable
 my $infilename = "sequence.fasta";
 # open the file for reading
-open(my $INFILE, "<$infilename") or die "Couldn't open $infilename for reading. $!\n";
+open(INFILE, "<$infilename") or die "Couldn't open $infilename for reading. $!\n";
 # slurp the file contents into an array
-my @arr = <$INFILE>;
+my @arr = <INFILE>;
 # close the file handle
-close($INFILE) or die "Couldn't close file handle for $infilename. $!\n";
+close(INFILE) or die "Couldn't close file handle for $infilename. $!\n";
 
 # place the name of the output file into a variable
 my $outfilename = "sequence.fasta.with_line_numbers.out";
 # open up the output file for writing
-open(my $OUTFILE, ">$outfilename") or die "Couldn't open $outfilename for writing. $!\n";
+open(OUTFILE, ">$outfilename") or die "Couldn't open $outfilename for writing. $!\n";
 my $line_number = 1;
 for my $line (@arr) {
-    print $OUTFILE "$line_number $line";
+    print OUTFILE "$line_number $line";
     $line_number++;
 }
 # close the file handle
-close($OUTFILE) or die "Couldn't close file handle for $outfilename. $!\n";
+close(OUTFILE) or die "Couldn't close file handle for $outfilename. $!\n";
 exit(0);

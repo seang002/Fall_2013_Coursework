@@ -23,4 +23,9 @@ print "Done reading lines from $filename\n";
 close $FH or die "Could not close the file handle for $filename\n";
 print "File handle for $filename closed.\n";
 print "Exiting.\n";
-exit 0;
+
+print "Does file handle need a sigil?\n";
+open(INFILE, "<$filename") or die "Could not open $filename for reading.\n";
+close INFILE or die "Could not close the file handle for $filename\n";
+print "It works!\n";
+exit(0);
