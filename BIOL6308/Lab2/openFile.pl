@@ -13,11 +13,11 @@ use strict;
 ################################################################################
 
 my $filename = "sequence.fasta";
-open(FH, "<$filename") or die "Couldn't open $filename for reading.\n";
+open(my $FH, "<$filename") or die "Couldn't open $filename for reading.\n";
 print "Displaying contents of $filename to STDOUT.\n";
-while (<FH>) {
+while (<$FH>) {
     print $_;
 }
 print "\nEnd of file reached.\n";
-close(FH) or die "Couldn't close file handle for $filename.\n";
+close($FH) or die "Couldn't close file handle for $filename.\n";
 exit(0);
