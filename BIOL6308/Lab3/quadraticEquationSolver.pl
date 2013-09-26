@@ -21,7 +21,7 @@ use strict;
 #
 # If delta is greater than zero then it has two separate roots:
 #
-# x1,x2 = (-b +/- delta) / 2a
+# x1,x2 = (-b +/- sqrt(delta)) / 2a
 #
 # If delta is zero then it has a repeated root.
 #
@@ -49,7 +49,6 @@ if ($coefficients[0] == 0) {
     exit(1);
 }
 
-
 my $delta = &calculate_delta(@coefficients);
 print "The delta is $delta\n";
 if ($delta < 0) {
@@ -59,7 +58,7 @@ elsif ($delta == 0) {
     printf("The root is %f\n", -$coefficients[1]/(2*$coefficients[0]));
 }
 else {
-    printf("The first root is %f\n", (-$coefficients[1]+$delta)/(2*$coefficients[0]));
-    printf("The second root is %f\n", (-$coefficients[1]-$delta)/(2*$coefficients[0]));
+    printf("The first root is %f\n", (-$coefficients[1]+sqrt($delta))/(2*$coefficients[0]));
+    printf("The second root is %f\n", (-$coefficients[1]-sqrt($delta))/(2*$coefficients[0]));
 }
 exit(0);
