@@ -13,7 +13,7 @@ use strict;
 # ax**2+bx+c
 #
 # The program asks for three coefficients in order. Quadratic coefficient cannot
-# be zero. The key to solve this equation is to calculate delta:
+# be zero (a != 0.) The key to solve this equation is to calculate delta:
 #
 # delta = b**2 - 4ac
 #
@@ -21,7 +21,7 @@ use strict;
 #
 # If delta is greater than zero then it has two separate roots:
 #
-# x1,x2 = (-b +/- delta) / 4ac
+# x1,x2 = (-b +/- delta) / 2a
 #
 # If delta is zero then it has a repeated root.
 #
@@ -43,9 +43,9 @@ for my $prompt (qw(a b c)){
     push(@coefficients, $input);
 }
 
-# Did the user give us a 0 as a coefficient?
-if ($coefficients[0] == 0 or $coefficients[1] == 0 or $coefficients[2] == 0 ) {
-    print "The quadratic coefficients cannot be zero.\n";
+# Did the user give us a 0 as the a coefficient?
+if ($coefficients[0] == 0) {
+    print "The quadratic coefficient cannot be zero.\n";
     exit(1);
 }
 
@@ -56,10 +56,10 @@ if ($delta < 0) {
     print "The roots of this equation are imaginary.\n";
 }
 elsif ($delta == 0) {
-    printf("The root is %f\n", -$coefficients[1]/(4*$coefficients[0]*$coefficients[2]));
+    printf("The root is %f\n", -$coefficients[1]/(2*$coefficients[0]));
 }
 else {
-    printf("The first root is %f\n", (-$coefficients[1]+$delta)/(4*$coefficients[0]*$coefficients[2]));
-    printf("The second root is %f\n", (-$coefficients[1]-$delta)/(4*$coefficients[0]*$coefficients[2]));
+    printf("The first root is %f\n", (-$coefficients[1]+$delta)/(2*$coefficients[0]));
+    printf("The second root is %f\n", (-$coefficients[1]-$delta)/(2*$coefficients[0]));
 }
 exit(0);
