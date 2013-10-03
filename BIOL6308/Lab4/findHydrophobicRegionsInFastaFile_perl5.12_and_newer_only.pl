@@ -37,6 +37,25 @@ use feature qw(say);
 #
 ################################################################################
 
+=cut
+***** WARNING *****
+
+This code does not run on fisher!
+fisher is using an older version of perl that will not allow you to pass a hash
+reference to the keys function.  If you want to run this code on fisher, please
+use:
+    findHydrophobicRegionsInFastaFile.pl
+
+From perlref keys: http://perldoc.perl.org/functions/keys.html
+
+Starting with Perl 5.14, keys can take a scalar EXPR, which must contain a
+reference to an unblessed hash or array. The argument will be dereferenced
+automatically. This aspect of keys is considered highly experimental.
+The exact behaviour may change in a future version of Perl.
+
+***** WARNING *****
+=cut
+
 sub usage {
     say "Usage: $0 inputfile";
     say "File should be in Fasta format.";
@@ -88,8 +107,7 @@ sub parse {
             $matched_sequences++;
             say "Hydrophobic stretch found in: ", $key;
             for my $hashref (@matches) {
-                my %hashderef = %$hashref;
-                for my $position (keys(%hashderef)){
+                for my $position (keys($hashref)){
                     say $hashref->{$position};
                     say "The match was at position: (",$position-length($hashref->{$position})+1,"-",$position,")";
                 }

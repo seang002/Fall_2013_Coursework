@@ -88,7 +88,8 @@ sub parse {
             $matched_sequences++;
             say "Hydrophobic stretch found in: ", $key;
             for my $hashref (@matches) {
-                for my $position (keys($hashref)){
+                my %hashderef = %$hashref;
+                for my $position (keys(%hashderef)){
                     say $hashref->{$position};
                     say "The match was at position: (",$position-length($hashref->{$position})+1,"-",$position,")";
                 }
