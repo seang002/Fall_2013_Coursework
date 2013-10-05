@@ -1,0 +1,58 @@
+Sources:
+
+For additional synopsis:
+http://www.law.cornell.edu/supct/cert/11-159
+
+Section 416(h)(2)(a)
+http://www.ssa.gov/OP_Home/ssact/title02/0216.htm
+
+#############################################################################################################################
+
+Original Case
+
+KAREN K. CAPATO, o/b/o B.N.C., K.N.C., Plaintiff, v. MICHAEL J. ASTRUE, Commissioner of Social Security, Defendant.
+
+Civil Action No.: 08-5405 (DMC)
+
+UNITED STATES DISTRICT COURT FOR THE DISTRICT OF NEW JERSEY
+
+2010 U.S. Dist. LEXIS 27350
+
+March 23, 2010, Decided
+March 23, 2010, Filed
+
+
+#############################################################################################################################
+
+Appeal of the NJ Decision
+
+KAREN K. CAPATO, o/b/o B.N.C., K.N.C., Appellant v. COMMISSIONER OF SOCIAL SECURITY
+No. 10-2027
+UNITED STATES COURT OF APPEALS FOR THE THIRD CIRCUIT
+631 F.3d 626; 2011 U.S. App. LEXIS 19; 163 Soc. Sec. Rep. Service 35; Unemployment Ins. Rep. (CCH) P14,886C
+November 15, 2010, Argued
+January 4, 2011, Opinion Filed
+
+PROCEDURAL POSTURE: Shortly after a decedent's death, appellant widow began in vitro fertilization using the frozen sperm of the decedent. She gave birth to twins eighteen months after the decedent's death. The widow applied for surviving child's insurance benefits under the Social Security Act on behalf of the twins. The claim was denied. The United States District Court for the District of New Jersey affirmed. The widow appealed.
+
+OVERVIEW: Appellee Commissioner of Social Security argued that the 42 U.S.C.S. § 416(h)(2)(A) definition of "child" was appropriate. However, the Commissioner had not told the court why, where there was no family status to determine, it would even refer to § 416(h). Under 42 U.S.C.S. § 402(d), the child was a "child" as defined in § 416(e). The U.S. Court of Appeals for the Ninth Circuit held that § 416(h)(2) and (3) had no relevance for determining whether a claimant was the "child" of a deceased wage earner where parentage was not in dispute. The Commissioner conceded that the decedent's children were his biological children. The court found that the term "child" in § 416(e) required no further definition when all parties agreed that the applicants were the biological offspring of the decedent. The undisputed biological children of a deceased wage earner and his widow were "children" within the meaning of the Social Security Act.
+
+OUTCOME: The dismissal of the widow's Equal Protection claim was affirmed. The denial of child survivor benefits was vacated. The matter was remanded for a determination of whether, as of the date of the decedent's death, his children were dependent or deemed dependent on him.
+
+#############################################################################################################################
+
+MICHAEL J. ASTRUE, COMMISSIONER OF SOCIAL SECURITY, Petitioner v. KAREN K. CAPATO, on behalf of B. N. C., et al.
+No. 11-159
+SUPREME COURT OF THE UNITED STATES
+132 S. Ct. 2021; 182 L. Ed. 2d 887; 2012 U.S. LEXIS 3782; 80 U.S.L.W. 4369; 23 Fla. L. Weekly Fed. S 308; Unemployment Ins. Rep. (CCH) P14,965C; 179 Soc. Sec. Rep. Service 10
+March 19, 2012, Argued
+May 21, 2012, Decided
+
+CASE SUMMARY
+
+PROCEDURAL POSTURE: Respondent mother's claim for survivor benefits for posthumously born children, conceived after decedent father's death through in vitro fertilization, was denied by petitioner Commissioner of Social Security (SSA) because under 42 U.S.C.S. § 416(h)(2), (3)(C), the children could not inherit under Florida intestacy law. The U.S. Court of Appeals for the Third Circuit reversed the district court's affirmance of the denial. Certiorari was granted.
+
+OVERVIEW: Congress' aim was to provide dependent members of a wage earner's family with protection against the hardship occasioned by the loss of the insured's earnings. Where state intestacy law provided for a child to take from a father's estate, it could reasonably be thought the child was likely dependent during the parent's life and at his death. Reliance on state intestacy law served the driving objective. The regime was reasonably related to the government's interests in reserving benefits for children who lost a parent's support, and in using reasonable presumptions to minimize the burden of proving dependency on a case-by-case basis, satisfying equal protection concerns. Section 416(e)(1)'s statement that "child" meant "the child of an individual," was of scant utility and § 416(h)(2)(A) completed the definition for purposes of the "subchapter" that included § 416(e)(1). Under the completed definition, employed by the SSA, § 416(h)(2)(A) referred to state law to determine the status of a posthumously conceived child. The SSA's interpretation of the relevant provisions, adhered to without deviation for many decades, was at least reasonable and was entitled to deference.
+
+OUTCOME: The judgment of the Court of Appeals for the Third Circuit finding an entitlement to benefits was reversed, and the case was remanded for further proceedings. Unanimous decision.
+
