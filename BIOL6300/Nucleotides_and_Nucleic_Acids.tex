@@ -25,15 +25,51 @@
 \textbf{purine} & Adenine and Guanine\\
 \end{tabularx}
 
-\definesubmol{pyrimidine}{HC?(-[0,.25,,,draw=none]^{2})=[:-30]N(-[2,.25,,,draw=none]\scriptstyle{1})-[:30]CH(-[4,.25,,,draw=none]^{6})=[:90]CH(-[4,.25,,,draw=none]_5)-[:150]\chemabove{C}{H}(-[6,.25,,,draw=none]\scriptstyle{4})=[:210]N?(-[0,.25,,,draw=none]_3)}
-\definesubmol{purine}{HC*6(=N-C*5(-\chembelow{N}{H}-CH=N?)=C?-\chemabove{C}{H}=N-)}
-\begin{tabularx}{\linewidth}{XX}
-\raisebox{-1.5\height}{\chemname{\chemfig{!{pyrimidine}}}{\textbf{Pyrimidine}}} &
-\raisebox{-1.5\height}{\chemname{\chemfig{!{purine}}}{\textbf{Purine}}}\\
+\definesubmol{ribose}{{^-}O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-CH_2(-[2,.25,,,draw=none]\scriptstyle\color{red}{5'})-[6]?([7,.7]<(-[2,.4]H)(-[6,.4]OH)(-[1,.25,,,draw=none]\scriptstyle\color{red}3')-[0,.7,,,line width=2pt](-[2,.4]H)(-[6,.4,,,red]\color{red}{OH})>[1,.7](-[6,.4]H-[2,2.5]\framebox{Purine or pyrimidine base})-[:150,.95]O?)-[6]H)}
+
+\definesubmol{deoxyribose}{{^-}O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-CH_2(-[2,.25,,,draw=none]\scriptstyle\color{red}{5'})-[6]?([7,.7]<(-[2,.4]H)(-[6,.4]OH)(-[1,.25,,,draw=none]\scriptstyle\color{red}3')-[0,.7,,,line width=2pt](-[2,.4]H)(-[6,.4,,,red]\color{red}{H})>[1,.7](-[6,.4]H-[2,2.5]\framebox{Purine or pyrimidine base})-[:150,.95]O?)-[6]H)}
+
+\begin{tabularx}{\linewidth}{cX}
+\setcrambond{2pt}{}{}
+\chemname{\chemfig{!{ribose}}}{\textbf{Ribose}} &
+\setcrambond{2pt}{}{}
+\chemname{\chemfig{!{deoxyribose}}}{\textbf{DeoxyRibose}} \\
 \end{tabularx}
 
-\raisebox{-1.5\height}{
-\setcrambond{2pt}{}{}
-\chemname{\chemfig{{^-}O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-CH_2-[6]?([7,.7]<(-[2,.4]H-[6,.8]OH)-[0,.7,,,line width=2pt](-[2,.4]H-[6,.8]OH)>[1,.7](-[6,.4]H-[2,2.5]\framebox{Purine or pyrimidine base})-[:150,.95]O?)-[6]H)}}{\textbf{Pentose}}}
+\definesubmol{pyrimidine}{HC?(-[0,.25,,,draw=none]\color{red}^{2})=[:-30]N(-[2,.25,,,draw=none]\scriptstyle\color{red}{1})-[:30]CH(-[4,.25,,,draw=none]\color{red}^{6})=[:90]CH(-[4,.25,,,draw=none]\color{red}_5)-[:150]\chemabove{C}{H}(-[6,.25,,,draw=none]\scriptstyle\color{red}{4})=[:210]N?(-[0,.25,,,draw=none]\color{red}_3)}
 
+\definesubmol{purine}{HC?[a](-[0,.25,,,draw=none]\color{red}^{2})=[:-30]N(-[2,.25,,,draw=none]\scriptstyle\color{red}{3})-[:30]C(-[4,.25,,,draw=none]\color{red}^{4})(-[:-20]\chembelow{N}{H}(-[2,.25,,,draw=none]\scriptstyle\color{red}{9})-[:60]CH(-[4,.25,,,draw=none]\scriptstyle\color{red}{8})=[:120]N?[b](-[6,.25,,,draw=none]\scriptstyle\color{red}{7}))=[:90]C?[b](-[4,.25,,,draw=none]\color{red}_5)-[:150]\chemabove{C}{H}(-[6,.25,,,draw=none]\scriptstyle\color{red}{6})=[:210]N?[a](-[0,.25,,,draw=none]\color{red}_1)
+}
+
+\begin{tabularx}{\linewidth}{XX}
+\raisebox{-1.25\height}{\chemname{\chemfig{!{pyrimidine}}}{\textbf{Pyrimidine}}} &
+\raisebox{-1.25\height}{\chemname{\chemfig{!{purine}}}{\textbf{Purine}}}\\
+\end{tabularx}
+
+\definesubmol{Cytosine}{C?(=[:210]O)(-[0,.25,,,draw=none]\color{red}^{2})-[:-30]\chembelow{N}{H}(-[2,.25,,,draw=none]\scriptstyle\color{red}{1})-[:30]CH(-[4,.25,,,draw=none]\color{red}^{6})=[:90]CH(-[4,.25,,,draw=none]\color{red}_5)-[:150]C(-[2]NH_2)(-[6,.25,,,draw=none]\scriptstyle\color{red}{4})=[:210]N?(-[0,.25,,,draw=none]\color{red}_3)}
+
+\definesubmol{Thymine}{C?(-[0,.25,,,draw=none]\color{red}^{2})(=[:210]O)-[:-30]\chembelow{N}{H}(-[2,.25,,,draw=none]\scriptstyle\color{red}{1})-[:30]CH(-[4,.25,,,draw=none]\color{red}^{6})=[:90]C(-[4,.25,,,draw=none]\color{red}_5)(-[:30]CH_3)-[:150]C(=[2]O)(-[6,.25,,,draw=none]\scriptstyle\color{red}{4})-[:210]HN?(-[0,.25,,,draw=none]\color{red}_3)}
+
+\definesubmol{Uracil}{C?(-[0,.25,,,draw=none]\color{red}^{2})(=[:210]O)-[:-30]\chembelow{N}{H}(-[2,.25,,,draw=none]\scriptstyle\color{red}{1})-[:30]CH(-[4,.25,,,draw=none]\color{red}^{6})=[:90]CH(-[4,.25,,,draw=none]\color{red}_5)-[:150]C(=[2]O)(-[6,.25,,,draw=none]\scriptstyle\color{red}{4})-[:210]HN?(-[0,.25,,,draw=none]\color{red}_3)}
+
+
+\definesubmol{Adenine}{HC?[a](-[0,.25,,,draw=none]\color{red}^{2})=[:-30]N(-[2,.25,,,draw=none]\scriptstyle\color{red}{3})-[:30]C(-[4,.25,,,draw=none]\color{red}^{4})(-[:-20]\chembelow{N}{H}(-[2,.25,,,draw=none]\scriptstyle\color{red}{9})-[:60]CH(-[4,.25,,,draw=none]\scriptstyle\color{red}{8})=[:120]N?[b](-[6,.25,,,draw=none]\scriptstyle\color{red}{7}))=[:90]C?[b](-[4,.25,,,draw=none]\color{red}_5)-[:150]C(-[6,.25,,,draw=none]\scriptstyle\color{red}{6})(-[2]NH_2)=[:210]N?[a](-[0,.25,,,draw=none]\color{red}_1)
+}
+
+\definesubmol{Guanine}{C?[a](-[:210]H_2N)(-[0,.25,,,draw=none]\color{red}^{2})=[:-30]N(-[2,.25,,,draw=none]\scriptstyle\color{red}{3})-[:30]C(-[4,.25,,,draw=none]\color{red}^{4})(-[:-20]\chembelow{N}{H}(-[2,.25,,,draw=none]\scriptstyle\color{red}{9})-[:60]CH(-[4,.25,,,draw=none]\scriptstyle\color{red}{8})=[:120]N?[b](-[6,.25,,,draw=none]\scriptstyle\color{red}{7}))=[:90]C?[b](-[4,.25,,,draw=none]\color{red}_5)-[:150]C(-[6,.25,,,draw=none]\scriptstyle\color{red}{6})(=[2]O)-[:210]HN?[a](-[0,.25,,,draw=none]\color{red}_1)
+}
+
+\begin{tabularx}{\linewidth}{XX}
+\raisebox{-1.25\height}{\chemname{\chemfig{!{Adenine}}}{\textbf{Adenine}}} &
+\raisebox{-1.25\height}{\chemname{\chemfig{!{Guanine}}}{\textbf{Guanine}}} \\
+\end{tabularx}
+\begin{tabularx}{\linewidth}{XXX}
+\chemnameinit{\chemfig{C-[6]H}}
+\raisebox{-1.25\height}{\chemname{\chemfig{!{Cytosine}}}{\textbf{Cytosine}}} &
+\chemnameinit{\chemfig{C-[6]H}}
+\raisebox{-1.25\height}{\chemname{\chemfig{!{Thymine}}}{\textbf{Thymine (DNA)}}} &
+\chemnameinit{\chemfig{C-[6]H}}
+\raisebox{-1.25\height}{\chemname{\chemfig{!{Uracil}}}{\textbf{Uracil (RNA)}}} \\
+\chemnameinit{}
+\end{tabularx}
 \end{document}
