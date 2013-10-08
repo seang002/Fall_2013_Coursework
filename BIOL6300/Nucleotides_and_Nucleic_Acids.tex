@@ -1,0 +1,39 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[a4paper,top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage{chemfig}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\setlength{\headheight}{1em}
+\pagestyle{fancyplain}
+\lhead{BIOL6300 - Biochemistry}
+\chead{Nucleotides and Nucleic Acids}
+\rhead{\today}
+\setlength{\parindent}{0cm} % Default is 15pt.
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+\textbf{Definitions:}\\
+\begin{tabularx}{\linewidth}{lX}
+\textbf{RNA} & Ribonucleic Acid\\
+\textbf{DNA} & Deoxyribonucleic Acid\\
+\textbf{rRNA} & Ribosomal RNA\\
+\textbf{tRNA} & Transfer RNA\\
+\textbf{mRNA} & Messenger RNA\\
+\textbf{gene} & A segment of a DNA molecule that contains a sequence of a functional biological product, whether protein or RNA.\\
+\textbf{pyrimidine} & Cytosine, Thymine (DNA) and Uracil (RNA)\\
+\textbf{purine} & Adenine and Guanine\\
+\end{tabularx}
+
+\definesubmol{pyrimidine}{HC?(-[0,.25,,,draw=none]^{2})=[:-30]N(-[2,.25,,,draw=none]\scriptstyle{1})-[:30]CH(-[4,.25,,,draw=none]^{6})=[:90]CH(-[4,.25,,,draw=none]_5)-[:150]\chemabove{C}{H}(-[6,.25,,,draw=none]\scriptstyle{4})=[:210]N?(-[0,.25,,,draw=none]_3)}
+\definesubmol{purine}{HC*6(=N-C*5(-\chembelow{N}{H}-CH=N?)=C?-\chemabove{C}{H}=N-)}
+\begin{tabularx}{\linewidth}{XX}
+\raisebox{-1.5\height}{\chemname{\chemfig{!{pyrimidine}}}{\textbf{Pyrimidine}}} &
+\raisebox{-1.5\height}{\chemname{\chemfig{!{purine}}}{\textbf{Purine}}}\\
+\end{tabularx}
+
+\raisebox{-1.5\height}{
+\setcrambond{2pt}{}{}
+\chemname{\chemfig{{^-}O-P(-[2]O\rlap{${}^-$})(=[6]O)(-O-CH_2-[6]?([7,.7]<(-[2,.4]H-[6,.8]OH)-[0,.7,,,line width=2pt](-[2,.4]H-[6,.8]OH)>[1,.7](-[6,.4]H-[2,2.5]\framebox{Purine or pyrimidine base})-[:150,.95]O?)-[6]H)}}{\textbf{Pentose}}}
+
+\end{document}
