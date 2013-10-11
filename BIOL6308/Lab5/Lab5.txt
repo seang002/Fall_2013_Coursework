@@ -1,0 +1,43 @@
+Dan Shea
+BIOL6308
+Lab #5
+2013-10-10
+
+1. C) How many results were retrieved after the limit filtered your results? 10
+   D) After examining these records, which Variant is the longest, most complete
+      mRNA reference sequence for the HFE gene?
+      PREDICTED: Homo sapiens hemochromatosis (HFE), transcript variant X1,
+      mRNA 3,144 bp linear mRNA
+
+2.
+A) How many nucleotides are in this GenBank entry? 12146 base pairs
+B) How many nucleotides are in this gene? base pairs 1028..10637, so (10637-1028) = 9609
+C) How many exons are found in this gene? 7 exons
+D) How many introns are found in this gene? 6 introns
+
+One of the cool features that has been implemented in NCBI in the past couple years are powerful AJAX functions.
+
+E) Click on the gene link. What happens? It jumps to the sequence and highlights the sequence that comprises the gene.
+F) Click on the exon link. What happens? It jumps to the sequence and highlights the exon sequence.
+G) After you click on the exon link, look to the lower left corner of your browser. 
+   What happens when you click the FASTA link? There is a drop-down link where you can select different 
+   features to explore (CDS, exon, gene, intron, etc.)
+
+In this problem you will search the NCBI database for a gene sequence and its corresponding protein; however, you will have to search through direct links to this page to find some of the answers
+
+3. Using the Entrez Nucleotide site locate the record AE005174. Answer the following.
+A). How many nucleotides are in this DNA entry? 5528445 bp
+B). From which genome sequence is this sequence derived? Escherichia coli O157:H7 EDL933, complete genome.
+C). Was there more than one literature report for the genome sequence of this organism? No. 
+    Nature 409 (6819), 529-533 (2001) is the only publication listed.
+D). How many protein-encoding genes are present in AE005174? 5478
+E). Do all of the genes use the same codon table? Yes
+    Is this the standard codon table? No /transl_table=11 clicking on this link shows this codon table 
+    is not the standard one.
+F). Examine the thrB gene by clicking on the gene link next to its sequence.
+        How does this compare to the previous record? Two different proteins with the same function
+G). Display this record in the FASTA format. How does this format differ from the default? The default was Genbank, FASTA lacks much of the tagging information and only shows the nucleotide sequence.
+H). Examine the protein record. Did you switch to a different database? Yes, it switched to the protein DB
+    from nucleotide DB.
+F). Check out the EBI databases for AE005174 and compare the output with NCBI.
+    http://www.ebi.ac.uk/ena/data/view/AE005174
