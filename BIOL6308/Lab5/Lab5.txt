@@ -31,8 +31,8 @@ D). How many protein-encoding genes are present in AE005174? 5478
 E). Do all of the genes use the same codon table? Yes
     Is this the standard codon table? No /transl_table=11 clicking on this link shows this codon table is not the standard one.
 F). Examine the thrB gene by clicking on the gene link next to its sequence.
-        How does this compare to the previous record? Two different proteins with the same function listed.
-G). Display this record in the FASTA format. How does this format differ from the default? The default was Genbank, FASTA lacks much of the tagging information (location of exons, introns, CDS, etc.) and only shows the nucleotide sequence.
+    How does this compare to the previous record? Two different proteins with the same function listed.
+G). Display this record in the FASTA format. How does this format differ from the default? The default was Genbank, FASTA lacks much of the tagging information (location of exons, introns, CDS, etc.) and shows only the nucleotide sequence.
 H). Examine the protein record. Did you switch to a different database? Yes, it switched to the protein DB from nucleotide DB.
 F). Check out the EBI databases for AE005174 and compare the output with NCBI.
     http://www.ebi.ac.uk/ena/data/view/AE005174
