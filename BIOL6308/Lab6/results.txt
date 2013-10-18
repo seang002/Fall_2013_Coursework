@@ -1,0 +1,649 @@
+FEATURES             Location/Qualifiers
+     source          1..413
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     gene            1..413
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+     Protein         1..413
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /product="Beta-2 adrenergic receptor"
+                     /note="Beta-2 adrenoreceptor; Beta-2 adrenoceptor"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..413
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Beta-2 adrenergic receptor. /FTId=PRO_0000069130."
+     Region          1..34
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Extracellular."
+     Site            6
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="glycosylation"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="N-linked (GlcNAc...) (Probable)."
+     Region          15
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N -> S (in dbSNP:rs33973603). /FTId=VAR_049373."
+     Site            15
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="glycosylation"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="N-linked (GlcNAc...) (Probable)."
+     Region          16
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="G -> R (common polymorphism; dbSNP:rs1042713).
+                     /FTId=VAR_003452."
+     Region          25..27
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          27
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="E -> Q (in dbSNP:rs1042714). /FTId=VAR_003453."
+     Region          31..60
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          34
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="V -> M. /FTId=VAR_003454."
+     Region          35..58
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical; Name=1."
+     Region          48..340
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="7tm_4"
+                     /note="Olfactory receptor; cl10458"
+                     /db_xref="CDD:209142"
+     Region          57..326
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="7tm_1"
+                     /note="7 transmembrane receptor (rhodopsin family);
+                     pfam00001"
+                     /db_xref="CDD:200918"
+     Region          59..71
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cytoplasmic."
+     Region          62..64
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          67..85
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          71
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="F -> L (in Ref. 9; BAG35969)."
+     Region          72..95
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical; Name=2."
+     Site            79
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="D->N: Affects binding of catecholamines, and
+                     produces an uncoupling between the receptor and
+                     stimulatory G proteins."
+     Region          87..96
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          96..106
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Extracellular."
+     Region          102..136
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Bond            bond(106,191)
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /bond_type="disulfide"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          107..129
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical; Name=3."
+     Site            113
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="binding"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Agonist or antagonist."
+     Site            118
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="binding"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Agonist or antagonist."
+     Region          130..150
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cytoplasmic."
+     Region          137..139
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            141
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine."
+     Site            141
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Y->F: Abolishes insulin-induced tyrosine
+                     phosphorylation and insulin-induced receptor
+                     supersensitization."
+     Region          147..170
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          151..174
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical; Name=4."
+     Region          159
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="I -> F. /FTId=VAR_009125."
+     Region          159
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="I -> L. /FTId=VAR_009124."
+     Region          164
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="T -> I (in dbSNP:rs1800888). /FTId=VAR_003455."
+     Region          171..174
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          175..196
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Extracellular."
+     Region          179..186
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Bond            bond(184,190)
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /bond_type="disulfide"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          187..189
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          193..207
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Agonist and antagonist binding."
+     Region          197..220
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical; Name=5."
+     Region          197..207
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          209..229
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          216
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="V -> A (in Ref. 8; AAN01267)."
+     Region          220
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="S -> C (in dbSNP:rs3729943). /FTId=VAR_025101."
+     Region          221..274
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cytoplasmic."
+     Region          235..239
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            246
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine."
+     Region          261
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="S -> P (in Ref. 10; BAD96745)."
+     Site            261
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Phosphoserine; by PKA (Potential)."
+     Site            262
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Phosphoserine; by PKA (Potential)."
+     Region          267..298
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          275..298
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical; Name=6."
+     Region          286..293
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Agonist and antagonist binding."
+     Region          299..305
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Extracellular."
+     Region          299..301
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          305..317
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          306..329
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Transmembrane region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Helical; Name=7."
+     Region          312..316
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Agonist and antagonist binding."
+     Region          318..320
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          322..325
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          326..328
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          330..413
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Topological domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Cytoplasmic."
+     Region          330..339
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            341
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="lipid-binding"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="S-palmitoyl cysteine."
+     Site            341
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="C->G: Uncoupled receptor."
+     Region          345..347
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Hydrogen bonded turn"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            345..346
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="SS->AA: Delayed agonist-promoted desensitization."
+     Site            345
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine; by PKA."
+     Site            346
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine; by PKA."
+     Site            350
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Y->A: Does not affect insulin-induced tyrosine
+                     phosphorylation or insulin-induced receptor
+                     supersensitization."
+     Site            354
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Y->A: Does not affect insulin-induced tyrosine
+                     phosphorylation or insulin-induced receptor
+                     supersensitization."
+     Site            355
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Phosphoserine; by BARK (Probable)."
+     Site            356
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Phosphoserine; by BARK (Probable)."
+     Site            366
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Y->F: Does not affect insulin-induced tyrosine
+                     phosphorylation or insulin-induced receptor
+                     supersensitization."
+     Region          375
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="K -> R. /FTId=VAR_009394."
+     Site            382
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="4-hydroxyproline."
+     Site            395
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /site_type="modified"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="4-hydroxyproline."
+     Region          402
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Q -> P (in Ref. 14; AAH12481)."
+     Region          410..413
+                     /gene="ADRB2"
+                     /gene_synonym="ADRB2R"
+                     /gene_synonym="B2AR"
+                     /region_name="Short sequence motif of biological interest"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="PDZ-binding."
