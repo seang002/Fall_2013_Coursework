@@ -93,4 +93,4 @@ my ($query_sequence) = parseFastaFile($cystic_fibrosis_file);
 my @sequences = parseFastaFile($sequence_collection_file);
 
 # Perform the analysis
-computeAlignmentScore($query_sequence, @sequences)
+computeAlignmentScore($query_sequence, @sequences);
