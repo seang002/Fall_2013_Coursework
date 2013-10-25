@@ -1,0 +1,82 @@
+Gene Group 1	Enrichment Score: 1.318121153482344
+OFFICIAL_GENE_SYMBOL	Gene Name
+CSNK2A2	casein kinase 2, alpha prime polypeptide; similar to casein kinase II, alpha prime subunit
+GM5891	predicted gene 5157; predicted gene 6902; predicted gene 5891; predicted gene 5890; predicted gene 6882; predicted gene 10662; predicted gene 8708; predicted gene, EG381936; predicted gene, ENSMUSG00000074321; predicted gene 4567; predicted gene 4513; predicted gene 4557; predicted gene 4545; predicted gene 6176; predicted gene 4565; similar to serine/threonine kinase; predicted gene 4526
+TSSK3	testis-specific serine kinase 3
+ACSS2	acyl-CoA synthetase short-chain family member 2
+PIP4K2B	phosphatidylinositol-5-phosphate 4-kinase, type II, beta
+MYLK2	myosin, light polypeptide kinase 2, skeletal muscle
+SNRK	SNF related kinase; hypothetical protein LOC100044493; predicted gene 3193
+NLRP4B	NLR family, pyrin domain containing 4B
+1300010F03RIK	RIKEN cDNA 1300010F03 gene
+EIF2AK4	eukaryotic translation initiation factor 2 alpha kinase 4
+PI4K2B	phosphatidylinositol 4-kinase type 2 beta
+XYLB	xylulokinase homolog (H. influenzae)
+OASL1	2'-5' oligoadenylate synthetase-like 1
+NLRP9C	NLR family, pyrin domain containing 9C
+SMC6	structural maintenance of chromosomes 6
+UBE2D2	ubiquitin-conjugating enzyme E2D 2; predicted gene 9762
+
+Gene Group 2	Enrichment Score: 0.44481354683338004
+OFFICIAL_GENE_SYMBOL	Gene Name
+B3GALT2	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 2
+SEMA6A	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6A
+MANEAL	mannosidase, endo-alpha-like
+LY9	lymphocyte antigen 9
+SLC48A1	solute carrier family 48 (heme transporter), member 1
+SEMA6C	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6C
+TMEM45B	transmembrane protein 45b
+ORMDL1	ORM1-like 1 (S. cerevisiae)
+COL23A1	similar to procollagen, type XXIII, alpha 1; collagen, type XXIII, alpha 1
+SLCO1B2	solute carrier organic anion transporter family, member 1b2
+SEC62	SEC62 homolog (S. cerevisiae)
+GALNTL4	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 4
+GRPR	gastrin releasing peptide receptor
+VMN1R54	vomeronasal 1 receptor, A9
+TMEM27	transmembrane protein 27
+MFSD1	major facilitator superfamily domain containing 1
+SYNGR4	synaptogyrin 4
+LYVE1	lymphatic vessel endothelial hyaluronan receptor 1
+TMEM182	transmembrane protein 182
+CD8A	CD8 antigen, alpha chain
+B3GNT4	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 4
+UPK3A	uroplakin 3A
+MGAT2	mannoside acetylglucosaminyltransferase 2
+IKBIP	RIKEN cDNA 1200009F10 gene
+H2-Q10	histocompatibility 2, Q region locus 10
+TMEM117	transmembrane protein 117
+THSD1	thrombospondin, type I, domain 1
+SLC22A15	solute carrier family 22 (organic anion/cation transporter), member 15
+VSTM2L	similar to orthologue of H. sapiens chromosome 21 open reading frame 102 (C20orf102); V-set and transmembrane domain containing 2-like
+GPR137B	similar to Gpr137b protein; G protein-coupled receptor 137B
+TMEM140	transmembrane protein 140
+SLC15A3	solute carrier family 15, member 3
+TMEM26	transmembrane protein 26
+
+Gene Group 3	Enrichment Score: 0.3393155411358015
+OFFICIAL_GENE_SYMBOL	Gene Name
+KCNC3	potassium voltage gated channel, Shaw-related subfamily, member 3
+CACNA2D1	calcium channel, voltage-dependent, alpha2/delta subunit 1
+KCNJ5	potassium inwardly-rectifying channel, subfamily J, member 5
+P2RX4	purinergic receptor P2X, ligand-gated ion channel 4
+
+Gene Group 4	Enrichment Score: 0.14295793406473314
+OFFICIAL_GENE_SYMBOL	Gene Name
+TANK	TRAF family member-associated Nf-kappa B activator
+CXXC5	CXXC finger 5
+ZCCHC2	zinc finger, CCHC domain containing 2
+OSR1	odd-skipped related 1 (Drosophila)
+ZFP212	Zinc finger protein 212
+PNMA3	paraneoplastic antigen MA3
+ZFP26	zinc finger protein 26
+ZFP784	zinc finger protein 784
+RSPRY1	ring finger and SPRY domain containing 1
+DMRTA2	doublesex and mab-3 related transcription factor like family A2
+
+Gene Group 5	Enrichment Score: 0.10140630570818669
+OFFICIAL_GENE_SYMBOL	Gene Name
+TCFAP2D	transcription factor AP-2, delta
+ELK3	ELK3, member of ETS oncogene family
+EDF1	predicted gene 11964; endothelial differentiation-related factor 1
+GTF2IRD2	GTF2I repeat domain containing 2
+
