@@ -25,7 +25,7 @@ sub loadGOA {
         chomp($line);
         if ($line =~ /.*?\t+IDA\t+.*?/) {
             my $entry = [split(/\t+/, $line)];
-            push($goa_ref, $entry);
+            push(@$goa_ref, $entry);
         }
     }
 }
@@ -48,7 +48,7 @@ sub parseFile {
                 if(not exists($results->{$temp->{to}})) {
                     $results->{$temp->{to}} = [];
                 }
-                push($results->{$temp->{to}}, $temp);
+                push(@{$results->{$temp->{to}}}, $temp);
             }
         }
     }
@@ -84,5 +84,5 @@ for my $gene_key (keys(%results)) {
     for my $arrayref (@{$results{$gene_key}}) {
         say "@$arrayref";
     }
-    say;
+    say "";
 }

@@ -47,7 +47,7 @@ sub parseFile {
                 if(not exists($results->{$temp->{to}})) {
                     $results->{$temp->{to}} = [];
                 }
-                push($results->{$temp->{to}}, $temp);
+                push(@{$results->{$temp->{to}}}, $temp);
             }
         }
     }
