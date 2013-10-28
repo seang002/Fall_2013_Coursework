@@ -36,35 +36,30 @@ sub parseFile {
     while (my $line = <$fh>) {
         chomp($line);
         # parse the line and create a new record
-        if ($line =~ /(\w+)\t(\w+)\t([\w ]+)\t(.*)/) {
-            my $temp = {from      => $1,
-                        to        => $2,
-                        species   => $3,
-                        gene_name => $4,};
-            # push the new record onto the list if species matches 'Mus musculus'
-            if ($temp->{species} =~ /\s*mus musculus\s*/i) {
-                # If the key doesn't exist, create the entry with an empty list reference
-                if(not exists($results->{$temp->{to}})) {
-                    $results->{$temp->{to}} = [];
-                }
-                push(@{$results->{$temp->{to}}}, $temp);
-            }
+        my @fields = split(/\t/, $line);
+        my $temp = {from      => $fields[0],
+                    to        => $fields[1],
+                    species   => $fields[2],
+                    gene_name => $fields[3],};
+        # push the new record onto the list if species matches 'Mus musculus'
+        if ($temp->{species} =~ /\s*mus musculus\s*/i) {
+            push(@$results, $temp);
         }
     }
 }
 
 # Read in the two files we are concerned about
-my %affymetrix_records;
-my %geneid_records;
-&parseFile($affymetrixfile, \%affymetrix_records);
-&parseFile($geneidfile, \%geneid_records);
+my @affymetrix_records;
+my @geneid_records;
+&parseFile($affymetrixfile, \@affymetrix_records);
+&parseFile($geneidfile, \@geneid_records);
 
 # If the key exists in both hashes, there is a correspondence between the two files
 # for that record.
-for my $affykey (keys(%affymetrix_records)) {
-    for my $genekey (keys(%geneid_records)) {
-        if ($affykey eq $genekey) {
-            say "Correspondence found for: $affykey";
+for my $affymetrix_record (@affymetrix_records) {
+    for my $geneID_record (@geneid_records) {
+        if ($affymetrix_record->{to} eq $geneID_record->{to}) {
+            printf("Uniprot: %s, Affymetrix: %s, GeneID: %s\n",$affymetrix_record->{to},$affymetrix_record->{from},$geneID_record->{from});
             last;
         }
     }
