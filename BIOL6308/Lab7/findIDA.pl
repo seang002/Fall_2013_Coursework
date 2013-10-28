@@ -37,52 +37,37 @@ sub parseFile {
     while (my $line = <$fh>) {
         chomp($line);
         # parse the line and create a new record
-        if ($line =~ /(\w+)\t(\w+)\t([\w ]+)\t(.*)/) {
-            my $temp = {from      => $1,
-                        to        => $2,
-                        species   => $3,
-                        gene_name => $4,};
-            # push the new record onto the list if species matches 'Mus musculus'
-            if ($temp->{species} =~ /\s*mus musculus\s*/i) {
-                # If the key doesn't exist, create the entry with an empty list reference
-                if(not exists($results->{$temp->{to}})) {
-                    $results->{$temp->{to}} = [];
-                }
-                push(@{$results->{$temp->{to}}}, $temp);
-            }
+        my @fields = split(/\t/, $line);
+        my $temp = {from      => $fields[0],
+                    to        => $fields[1],
+                    species   => $fields[2],
+                    gene_name => $fields[3],};
+        # push the new record onto the list if species matches 'Mus musculus'
+        if ($temp->{species} =~ /\s*mus musculus\s*/i) {
+            push(@$results, $temp);
         }
     }
 }
 
 sub linkMatches {
     my ($goa_ref, $gene_ref) = @_;
-    my %results;
-    for my $gene_key (keys(%$gene_ref)) {
+    for my $gene_entry (@$gene_ref) {
         for my $goa_entry (@$goa_ref) {
-            if ($goa_entry->[1] eq $gene_key) {
-                if (not exists($results{$gene_key})) {
-                    $results{$gene_key} = [];
-                }
-                push(@{$results{$gene_key}}, $goa_entry);
+            if ($goa_entry->[1] eq $gene_entry->{to}) {
+                say "@$goa_entry";
+                print "$gene_entry->{$_} " for keys(%$gene_entry);
+                say "";
             }
         }
     }
-    return(%results);
 }
 
 my @goa_entries;
 my $goafile = "59.M_musculus.goa";
 &loadGOA($goafile, \@goa_entries);
 
-my %gene_entries;
+my @gene_entries;
 my $genefile = "geneIDs3_MouseToUniProtAccessions.txt";
-&parseFile($genefile, \%gene_entries);
+&parseFile($genefile, \@gene_entries);
 
-my %results = &linkMatches(\@goa_entries, \%gene_entries);
-for my $gene_key (keys(%results)) {
-    say "For accession $gene_key: ";
-    for my $arrayref (@{$results{$gene_key}}) {
-        say "@$arrayref";
-    }
-    say "";
-}
+&linkMatches(\@goa_entries, \@gene_entries);
