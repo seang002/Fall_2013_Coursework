@@ -1,0 +1,427 @@
+<document>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+    width="20cm"
+    height="15cm"
+    viewBox="0 0 720 540"
+    >
+    <rect
+      x="0"
+      y="0"
+      width="720"
+      height="540"
+      stroke="none"
+      fill="#FFFFFF"
+      />
+    <g
+      transform="matrix(1 0 0 -1 0 540)"
+      >
+      <g
+        transform="matrix(1.000000 0.000000 -0.000000 -1.000000 379 521)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="18"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x41;&#x20;&#x74;&#x65;&#x73;&#x74;&#x20;&#x6f;&#x66;&#x20;&#x64;&#x6f;&#x74;&#x74;&#x75;&#x70;</tspan>
+        </text>
+      </g>
+      <g
+        transform="matrix(1.000000 0.000000 -0.000000 -1.000000 379 505)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x54;&#x68;&#x75;&#x20;&#x33;&#x31;&#x20;&#x4f;&#x63;&#x74;&#x20;&#x32;&#x30;&#x31;&#x33;&#x20;&#x32;&#x33;&#x3a;&#x30;&#x34;&#x3a;&#x34;&#x37;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="226,277 441,438"
+        />
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,62 226,169"
+        />
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="584,438 637,478"
+        />
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="460,135 467,140"
+        />
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,62 83,478 637,478 637,62 83,62 "/>
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 360 22)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x67;&#x65;&#x6e;&#x65;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,62 83,56"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 83 47)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="155,62 155,56"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 155 47)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x31;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="227,62 227,56"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 227 47)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x32;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="298,62 298,56"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 298 47)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x33;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="370,62 370,56"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 370 47)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x34;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="442,62 442,56"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 442 47)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x35;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="513,62 513,56"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 513 47)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x36;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="585,62 585,56"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 585 47)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x37;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <g
+        transform="matrix(0.000000 1.000000 1.000000 -0.000000 17 267)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="middle"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x67;&#x65;&#x6e;&#x65;&#x32;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,62 75,62"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 67 59)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="end"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,116 75,116"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 67 113)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="end"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x31;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,170 75,170"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 67 167)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="end"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x32;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,224 75,224"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 67 221)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="end"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x33;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,277 75,277"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 67 274)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="end"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x34;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,331 75,331"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 67 328)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="end"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x35;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,385 75,385"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 67 382)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="end"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x36;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+      <polyline
+        stroke-width="1"
+        stroke="#000000"
+        fill="none"
+        points="83,438 75,438"
+        />
+      <g
+        transform="matrix(1.000000 0.000000 0.000000 -1.000000 67 435)"
+        >
+        <text
+          dominant-baseline="no-change"
+          x="0"
+          y="0"
+          fill="#000000"
+          xml:space="preserve"
+          font-size="9"
+          text-anchor="end"
+><tspan font-family="sans-serif" font-style="normal" font-weight="normal">&#x37;&#x30;&#x31;</tspan>
+        </text>
+      </g>
+    </g>
+  </svg>
+</document>
