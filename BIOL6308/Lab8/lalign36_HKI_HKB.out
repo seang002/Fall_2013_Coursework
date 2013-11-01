@@ -1,0 +1,163 @@
+# lalign36 hexokinase-1_isoform_HKI_Homo_Sapiens.fasta yeastHKB.prot.fasta
+LALIGN finds non-overlapping local alignments
+ version 36.3.5e Nov, 2012(preload8)
+Please cite:
+ X. Huang and W. Miller (1991) Adv. Appl. Math. 12:373-381
+
+Query: hexokinase-1_isoform_HKI_Homo_Sapiens.fasta
+  1>>>gi|188497754|ref|NP_000179.2| hexokinase-1 isoform HKI [Hom - 917 aa
+Library: yeastHKB.prot.fasta
+      486 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1951;  K=0.03652
+ statistics sampled from 1 (1) to 500 sequences
+Threshold: E() < 1 score: 50
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL50 matrix (15:-5), open/ext: -12/-2
+ Scan time:  0.030
+
+>>gi|3793|emb|CAA27203.1| unnamed protein product [Sacch  (486 aa)
+ Waterman-Eggert score: 827;  237.5 bits; E(1) <  1.4e-66
+35.4% identity (63.7% similar) in 491 aa overlap (448-917:5-480)
+
+       450       460       470       480       490       500       
+gi|188 GSGKGAAMVTAVAYRLAEQHRQIEETLAHFHLTKDMLLEVKKRMRAEMELGLRKQTHNNA
+       :  :  :   ..:    :  .:::     : .  . :  : :.. .:.: :: :.  :  
+gi|379 GPKKPQARKGSMADVPKELMQQIEIFEKIFTVPTETLQAVTKHFISELEKGLSKKGVN--
+           10        20        30        40        50        60    
+
+       510       520       530       540       550       560       
+gi|188 VVKMLPSFVRRTPDGTENGDFLALDLGGTNFRVLLVKIRSGKKRTVEMHNKIYAIPIEIM
+        . :.:..:   : : :.:::::.::::::.::.:::.  :  :: .  .. : .: . :
+gi|379 -IPMIPGWVMDFPTGKESGDFLAIDLGGTNLRVVLVKL--GGDRTFDTTQSKYRLP-DAM
+              70        80        90         100       110         
+
+       570         580          590       600       610       620  
+gi|188 QGTG--EELFDHIVSCISDFLDYM---GIKGPRMPLGFTFSFPCQQTSLDAGILITWTKG
+       . :   .::.. :.. .. :.: .   ::. : .::::::::: .:.... :::  ::::
+gi|379 RTTQNPDELWEFIADSLKAFIDEQFPQGISEP-IPLGFTFSFPASQNKINEGILQRWTKG
+      120       130       140       150        160       170       
+
+            630       640       650       660       670       680  
+gi|188 FKATDCVGHDVVTLLRDAIKRREEFDLDVVAVVNDTVGTMMTCAYEEPTCEVGLIVGTGS
+       :   .  .:::: .:.  :..:. . ..:::..:::.::...  : .:  ..:.: ::: 
+gi|379 FDIPNIENHDVVPMLQKQISKRN-IPIEVVALINDTTGTLVASYYTDPETKMGVIFGTGV
+       180       190       200        210       220       230      
+
+            690              700       710       720       730     
+gi|188 NACYMEEMKNVEMVEGD-------QGQMCINMEWGAFGDNGCLDDIRTHYDRLVDEYSLN
+       :. :..  ...: ..:        .. : :: :.:.: ::  .   ::.::  .:: :  
+gi|379 NGAYYDVCSDIEKLQGKLSDDIPPSAPMAINCEYGSF-DNEHVVLPRTKYDITIDEESPR
+        240       250       260       270        280       290     
+
+         740       750       760       770       780       790     
+gi|188 AGKQRYEKMISGMYLGEIVRNILIDFTKKGFLFRGQISETLKTRGIFETKFLSQIESDRL
+        :.: .::: ::.:::::.:  :.:. :.::.:..:    .    ...:.. ..:: : .
+gi|379 PGQQTFEKMSSGYYLGEILRLALMDMYKQGFIFKNQDLSKFDKPFVMDTSYPARIEEDPF
+         300       310       320       330       340       350     
+
+         800         810       820       830       840       850   
+gi|188 ALLQVRAILQQ--LGLNSTCDDSILVKTVCGVVSRRAAQLCGAGMAAVVDKIRENRGLDR
+         :.    : :  .:.:.: ..  :.. .  ... :::.:   :.::. .:    ::   
+gi|379 ENLEDTDDLFQNEFGINTTVQERKLIRRLSELIGARAARLSVCGIAAICQK----RGYKT
+         360       370       380       390       400           410 
+
+           860       870       880       890              900      
+gi|188 LNVTVGVDGTLYKLHPHFSRIMHQTVKELSPKCNVSF-------LLSEDGSGKGAALITA
+        ....  ::..:. .: :..   ...:..    ..:.       . .::::: :::.:.:
+gi|379 GHIAA--DGSVYNRYPGFKEKAANALKDIYGWTQTSLDDYPIKIVPAEDGSGAGAAVIAA
+               420       430       440       450       460         
+
+        910       
+gi|188 VGVRLRTEASS
+       .. .  .:..:
+gi|379 LAQKRIAEGKS
+     470       480
+
+>--
+ Waterman-Eggert score: 713;  205.4 bits; E(1) <  6.4e-57
+29.7% identity (66.7% similar) in 475 aa overlap (11-465:16-477)
+
+               20        30        40        50        60        70
+gi|188 FTELKDDQVKKIDKYLYAMRLSDETLIDIMTRFRKEMKNGLSRDFNPTATVKMLPTFVRS
+       ....  . ...:. .   . .  :::  .  .: .:...:::.     ... :.: .: .
+gi|379 MADVPKELMQQIEIFEKIFTVPTETLQAVTKHFISELEKGLSKK---GVNIPMIPGWVMD
+          20        30        40        50           60        70  
+
+               80        90       100       110        120         
+gi|188 IPDGSEKGDFIALDLGGSSFRILRVQVNHEKNQNVHMESEVYDTPENI-VHGSGSQLFDH
+       .: :.:.:::.:.::::...:.. :... ... .. . .  :  :. . .  . ..:.. 
+gi|379 FPTGKESGDFLAIDLGGTNLRVVLVKLGGDRTFDTTQSK--YRLPDAMRTTQNPDELWEF
+             80        90       100       110         120       130
+
+     130       140         150       160       170       180       
+gi|188 VAECLGDFMEKRKIK--DKKLPVGFTFSFPCQQSKIDEAILITWTKRFKASGVEGADVVK
+       .:. :  :....  .  .. .:.::::::: .:.::.:.::  ::: :   ..:. ::: 
+gi|379 IADSLKAFIDEQFPQGISEPIPLGFTFSFPASQNKINEGILQRWTKGFDIPNIENHDVVP
+              140       150       160       170       180       190
+
+       190       200       210       220       230       240       
+gi|188 LLNKAIKKRGDYDANIVAVVNDTVGTMMTCGYDDQHCEVGLIIGTGTNACYMEELRHIDL
+       .:.: :.:: .   ..::..:::.::...  : : . ..:.:.:::.:. :..    :. 
+gi|379 MLQKQISKR-NIPIEVVALINDTTGTLVASYYTDPETKMGVIFGTGVNGAYYDVCSDIEK
+               200       210       220       230       240         
+
+       250              260       270       280       290       300
+gi|188 VEGD-------EGRMCINTEWGAFGDDGSLEDIRTEFDREIDRGSLNPGKQLFEKMVSGM
+       ..:         . : :: :.:.: :.  .   ::..:  ::. :  ::.: :::: ::.
+gi|379 LQGKLSDDIPPSAPMAINCEYGSF-DNEHVVLPRTKYDITIDEESPRPGQQTFEKMSSGY
+     250       260       270        280       290       300        
+
+              310       320       330       340        350         
+gi|188 YLGELVRLILVKMAKEGLLFEGRITPELLTRGKFNTSDVSAIEKNK-EGLHNAKEIL-TR
+       ::::..:: :. : :.:..:...   ..     ..::  . ::..  :.:... ... ..
+gi|379 YLGEILRLALMDMYKQGFIFKNQDLSKFDKPFVMDTSYPARIEEDPFENLEDTDDLFQNE
+      310       320       330       340       350       360        
+
+      360       370       380       390       400       410        
+gi|188 LGVEPSDDDCVSVQHVCTIVSFRSANLVAATLGAILNRLRDNKGTPRLRTTVGVDGSLYK
+       .:.. . ..   ....  ... :.: : .  ..:: ..   . :       ...:::.:.
+gi|379 FGINTTVQERKLIRRLSELIGARAARLSVCGIAAICQKRGYKTG------HIAADGSVYN
+      370       380       390       400       410             420  
+
+      420       430              440       450       460      
+gi|188 THPQYSRRFHKTLRRL-------VPDSDVRFLLSESGSGKGAAMVTAVAY-RLAE
+        .: ....  ..:. .       . :  .... .:.::: :::...:.:  :.::
+gi|379 RYPGFKEKAANALKDIYGWTQTSLDDYPIKIVPAEDGSGAGAAVIAALAQKRIAE
+            430       440       450       460       470       
+
+>--
+ Waterman-Eggert score: 94;  31.2 bits; E(1) <  0.00018
+27.4% identity (64.5% similar) in 62 aa overlap (551-612:25-81)
+
+              560       570       580       590       600       610
+gi|188 RTVEMHNKIYAIPIEIMQGTGEELFDHIVSCISDFLDYMGIKGPRMPLGFTFSFPCQQTS
+       . .:. .::...: : .:.. .    :..: .   :.  :.. : .: :....::  . :
+gi|379 QQIEIFEKIFTVPTETLQAVTK----HFISELEKGLSKKGVNIPMIP-GWVMDFPTGKES
+           30        40            50        60         70         
+
+         
+gi|188 LD
+        :
+gi|379 GD
+      80 
+
+>--
+ Waterman-Eggert score: 61;  21.9 bits; E(1) <  0.1
+33.3% identity (59.0% similar) in 39 aa overlap (47-85:97-135)
+
+         50        60        70        80     
+gi|188 MKNGLSRDFNPTATVKMLPTFVRSIPDGSEKGDFIALDL
+       .: : .: :. : .   ::  .:.  . .:  .::: .:
+gi|379 VKLGGDRTFDTTQSKYRLPDAMRTTQNPDELWEFIADSL
+        100       110       120       130     
+
+
+
+917 residues in 1 query   sequences
+486 residues in 1 library sequences
+ Scomplib [36.3.5e Nov, 2012(preload8)]
+ start: Fri Nov  1 00:08:20 2013 done: Fri Nov  1 00:08:20 2013
+ Total Scan time:  0.030 Total Display time:  0.030
+
+Function used was LALIGN [36.3.5e Nov, 2012(preload8)]

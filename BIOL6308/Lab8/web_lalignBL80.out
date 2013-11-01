@@ -1,0 +1,88 @@
+Readseq version 2.1.30 (12-May-2010) Readseq version 2.1.30 (12-May-2010)
+lalign output for Yeast HKA vs. Yeast HKB
+[EMBnet-Server] Date: Fri Nov 1 4:50:49 2013
+LALIGN finds the best local alignments between two sequences version 2.1u09 December 2006 Please cite: X. Huang and W. Miller (1991) Adv. Appl. Math. 12:373-381 alignments < E( 0.05):score: -1 (3 max)
+
+ Comparison of:
+(A) ./wwwtmp/.16684.1.seq Yeast HKA 538 bp                                   - 533 aa
+(B) ./wwwtmp/.16684.2.seq Yeast HKB 538 bp                                   - 533 aa
+ using matrix file: /usr/molbio/share/fasta3/blosum80.mat (16/-8), gap-open/ext: -14/-4 E(limit)   0.05
+
+  79.7% identity in 533 aa overlap (1-533:1-533); score: 3701 E(10000):     -1
+
+               10        20        30        40        50        60
+Yeast  GIEMBCAANNAMEDPRTEINPRDCTSACCHARMYCESCEREVISIAEMVHLGPKKPQARK
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Yeast  GIEMBCAANNAMEDPRTEINPRDCTSACCHARMYCESCEREVISIAEMVHLGPKKPQARK
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+Yeast  GSMADVPKELMDEIHQLEDMFTVDSETLRKVVKHFIDELNKGLTKKGVNIPMIPGWVMEF
+       ::::::::::: .:. .: .::: .:::. :.:::: :: :::.::::::::::::::.:
+Yeast  GSMADVPKELMQQIEIFEKIFTVPTETLQAVTKHFISELEKGLSKKGVNIPMIPGWVMDF
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+Yeast  PTGKESGNYLAIDLGGTNLRVVLVKLSGNRTFDTTQSKYKLPHDMRTTKHQEELWSFIAD
+       :::::::..::::::::::::::::: :.::::::::::.::  ::::.. .::: ::::
+Yeast  PTGKESGDFLAIDLGGTNLRVVLVKLGGDRTFDTTQSKYRLPDAMRTTQNPDELWEFIAD
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+Yeast  SLKDFMVEQELLNTKDTLPLGFTFSYPASQNKINEGILQRWTKGFDIPNVEGHDVVPLLQ
+       ::: :. ::      . .:::::::.:::::::::::::::::::::::.: :::::.::
+Yeast  SLKAFIDEQFPQGISEPIPLGFTFSFPASQNKINEGILQRWTKGFDIPNIENHDVVPMLQ
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+Yeast  KEISKRELPIEIVALINDTVGTLIASYYTDPETKMGVIFGTGVNGAFYDVCSDIEKLEGK
+       :.:::: .:::.:::::::.:::.::::::::::::::::::::::.::::::::::.::
+Yeast  KQISKRNIPIEVVALINDTTGTLVASYYTDPETKMGVIFGTGVNGAYYDVCSDIEKLQGK
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+Yeast  LADDIPSNSPMAINCEYGSFDNEHLVLPRTKYDVAVDEQSPRPGQQAFEKMTSGYYLGEL
+       :.:::: ..:::::::::::::::.::::::::...::.:::::::.::::.:::::::.
+Yeast  LSDDIPPSAPMAINCEYGSFDNEHVVLPRTKYDITIDEESPRPGQQTFEKMSSGYYLGEI
+              310       320       330       340       350       360
+
+              370       380       390       400       410       420
+Yeast  LRLVLLELNEKGLMLKDQDLSKLKQPYIMDTSYPARIEDDPFENLEDTDDMFQKDFGVKT
+       ::: :... ..:...:.:::::. .:..::::::::::.:::::::::::.::..::..:
+Yeast  LRLALMDMYKQGFIFKNQDLSKFDKPFVMDTSYPARIEEDPFENLEDTDDLFQNEFGINT
+              370       380       390       400       410       420
+
+              430       440       450       460       470       480
+Yeast  TLPERKLIRRLCELIGTRAARLAVCGIAAICQKRGYKTGHIAADGSVYNKYPGFKEAAAK
+       :. :::::::: ::::.:::::.::::::::::::::::::::::::::.:::::: ::.
+Yeast  TVQERKLIRRLSELIGARAARLSVCGIAAICQKRGYKTGHIAADGSVYNRYPGFKEKAAN
+              430       440       450       460       470       480
+
+              490       500       510       520       530   
+Yeast  GLRDIYGWTGENASKDPITIVPAEDGSGAGAAVIAALSEKRIAEGKVSGIIGA
+       .:.::::::  .    :: ::::::::::::::::::..:::::::  :::::
+Yeast  ALKDIYGWTQTSLDDYPIKIVPAEDGSGAGAAVIAALAQKRIAEGKSVGIIGA
+              490       500       510       520       530   
+
+--------------------------------------------------------------------------------
+
+  75.0% identity in 8 aa overlap (447-454:514-521); score:   48 E(10000):     -1
+
+        450    
+Yeast  IAAICQKR
+       :::. :::
+Yeast  IAALAQKR
+           520 
+
+--------------------------------------------------------------------------------
+
+  30.3% identity in 33 aa overlap (92-124:182-210); score:   46 E(10000):     -1
+
+             100       110       120    
+Yeast  VKHFIDELNKGLTKKGVNIPMIPGWVMEFPTGK
+       .: ::::       .:.. :.  :... ::. .
+Yeast  LKAFIDEQ----FPQGISEPIPLGFTFSFPASQ
+                 190       200       210
+
+--------------------------------------------------------------------------------
+

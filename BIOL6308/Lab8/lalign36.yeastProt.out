@@ -1,0 +1,111 @@
+# lalign36 yeastHKA.prot.fasta yeastHKB.prot.fasta
+LALIGN finds non-overlapping local alignments
+ version 36.3.5e Nov, 2012(preload8)
+Please cite:
+ X. Huang and W. Miller (1991) Adv. Appl. Math. 12:373-381
+
+Query: yeastHKA.prot.fasta
+  1>>>gi|3791|emb|CAA27202.1| unnamed protein product [Saccharomyces c - 486 aa
+Library: yeastHKB.prot.fasta
+      486 residues in     1 sequences
+
+Statistics: (shuffled [500]) MLE statistics: Lambda= 0.1813;  K=0.03266
+ statistics sampled from 1 (1) to 500 sequences
+Threshold: E() < 1 score: 49
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL50 matrix (15:-5), open/ext: -12/-2
+ Scan time:  0.010
+
+>>gi|3793|emb|CAA27203.1| unnamed protein product [Sacch  (486 aa)
+ Waterman-Eggert score: 2615;  689.1 bits; E(1) <  8.7e-203
+77.8% identity (94.0% similar) in 486 aa overlap (1-486:1-486)
+
+               10        20        30        40        50        60
+gi|379 MVHLGPKKPQARKGSMADVPKELMDEIHQLEDMFTVDSETLRKVVKHFIDELNKGLTKKG
+       ::::::::::::::::::::::::..:. .: .::: .:::. :.::::.::.:::.:::
+gi|379 MVHLGPKKPQARKGSMADVPKELMQQIEIFEKIFTVPTETLQAVTKHFISELEKGLSKKG
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+gi|379 VNIPMIPGWVMEFPTGKESGNYLAIDLGGTNLRVVLVKLSGNRTFDTTQSKYKLPHDMRT
+       :::::::::::.::::::::..:::::::::::::::::.:.::::::::::.::  :::
+gi|379 VNIPMIPGWVMDFPTGKESGDFLAIDLGGTNLRVVLVKLGGDRTFDTTQSKYRLPDAMRT
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+gi|379 TKHQEELWSFIADSLKDFMVEQELLNTKDTLPLGFTFSYPASQNKINEGILQRWTKGFDI
+       :.. .::: ::::::: :. ::   . .. .:::::::.:::::::::::::::::::::
+gi|379 TQNPDELWEFIADSLKAFIDEQFPQGISEPIPLGFTFSFPASQNKINEGILQRWTKGFDI
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+gi|379 PNVEGHDVVPLLQKEISKRELPIEIVALINDTVGTLIASYYTDPETKMGVIFGTGVNGAF
+       ::.:.:::::.:::.::::..:::.:::::::.:::.::::::::::::::::::::::.
+gi|379 PNIENHDVVPMLQKQISKRNIPIEVVALINDTTGTLVASYYTDPETKMGVIFGTGVNGAY
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+gi|379 YDVCSDIEKLEGKLADDIPSNSPMAINCEYGSFDNEHLVLPRTKYDVAVDEQSPRPGQQA
+       ::::::::::.:::.:::: ..:::::::::::::::.::::::::...::.:::::::.
+gi|379 YDVCSDIEKLQGKLSDDIPPSAPMAINCEYGSFDNEHVVLPRTKYDITIDEESPRPGQQT
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+gi|379 FEKMTSGYYLGELLRLVLLELNEKGLMLKDQDLSKLKQPYIMDTSYPARIEDDPFENLED
+       ::::.:::::::.:::.:... ..:...:.:::::. .:..::::::::::.::::::::
+gi|379 FEKMSSGYYLGEILRLALMDMYKQGFIFKNQDLSKFDKPFVMDTSYPARIEEDPFENLED
+              310       320       330       340       350       360
+
+              370       380       390       400       410       420
+gi|379 TDDMFQKDFGVKTTLPERKLIRRLCELIGTRAARLAVCGIAAICQKRGYKTGHIAADGSV
+       :::.::..::..::. :::::::: ::::.:::::.::::::::::::::::::::::::
+gi|379 TDDLFQNEFGINTTVQERKLIRRLSELIGARAARLSVCGIAAICQKRGYKTGHIAADGSV
+              370       380       390       400       410       420
+
+              430       440       450       460       470       480
+gi|379 YNKYPGFKEAAAKGLRDIYGWTGENASKDPITIVPAEDGSGAGAAVIAALSEKRIAEGKV
+       ::.:::::: ::..:.::::::  . .  :: ::::::::::::::::::..::::::: 
+gi|379 YNRYPGFKEKAANALKDIYGWTQTSLDDYPIKIVPAEDGSGAGAAVIAALAQKRIAEGKS
+              430       440       450       460       470       480
+
+             
+gi|379 SGIIGA
+        :::::
+gi|379 VGIIGA
+             
+
+>--
+ Waterman-Eggert score: 55;  19.3 bits; E(1) <  0.3
+27.9% identity (60.5% similar) in 43 aa overlap (39-81:129-167)
+
+       40        50        60        70        80 
+gi|379 ETLRKVVKHFIDELNKGLTKKGVNIPMIPGWVMEFPTGKESGN
+       : .   .: ::::       .:.. :.  :... ::..... :
+gi|379 EFIADSLKAFIDEQ----FPQGISEPIPLGFTFSFPASQNKIN
+      130       140           150       160       
+
+>--
+ Waterman-Eggert score: 50;  18.0 bits; E(1) <  0.59
+29.0% identity (49.3% similar) in 69 aa overlap (311-376:89-152)
+
+              320       330       340       350       360          
+gi|379 GELLRLVLLELNEKGLMLKDQDLSKLKQPYIMDTSYPARIEDDPFENLEDTDDMF---QK
+       :  ::.::..:.  :    :   :: . :  : :.   .  :. .: . :.   :   : 
+gi|379 GTNLRVVLVKLG--GDRTFDTTQSKYRLPDAMRTT---QNPDELWEFIADSLKAFIDEQF
+       90       100         110       120          130       140   
+
+       370      
+gi|379 DFGVKTTLP
+         :..  .:
+gi|379 PQGISEPIP
+           150  
+
+
+
+486 residues in 1 query   sequences
+486 residues in 1 library sequences
+ Scomplib [36.3.5e Nov, 2012(preload8)]
+ start: Thu Oct 31 23:45:27 2013 done: Thu Oct 31 23:45:27 2013
+ Total Scan time:  0.010 Total Display time:  0.010
+
+Function used was LALIGN [36.3.5e Nov, 2012(preload8)]
