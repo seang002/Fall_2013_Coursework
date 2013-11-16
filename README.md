@@ -1,5 +1,5 @@
-Coursework
-==========
+Fall\_2013\_Coursework
+======================
 
 Repository of course work for my MS in Bioinformatics
 
