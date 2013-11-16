@@ -1,0 +1,57 @@
+\documentclass[letterpaper,10pt,twoside]{article}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+
+%Titlesec lets youformat sections
+\usepackage{titlesec}
+\titleformat{\section}[block]{\normalfont\bfseries}{\hspace{10mm}\thesection}{0.5em}{}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus.2ex}
+
+%Use URLs
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[svgnames]{xcolor}
+\hypersetup{
+  colorlinks,
+  urlcolor=Blue}
+\urlstyle{same}
+
+% Set color of footnotes to blue
+\renewcommand\thefootnote{\textcolor{blue}{\arabic{footnote}}}
+
+% Remove footnote indentation
+\usepackage[hang,flushmargin]{footmisc} 
+
+% Header
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Dan Shea}
+\rhead{BIOL6381 SEC02 -- Final Project}
+% Add space between text and footnotes section
+\setlength{\skip\footins}{0.25in}
+
+% Create a new command to handle the title font resizing
+\newcommand*{\TitleFont}{%
+      \usefont{\encodingdefault}{\rmdefault}{b}{n}%
+      \fontsize{12}{1.5em}%
+      \selectfont}
+
+% Set up double-spacing
+\usepackage{setspace}
+\doublespacing
+\begin{document}
+\begin{center}
+\textbf{\large{The role and duty of the scientific community to the public regarding genetically modified organisms in agriculture in an era of resource depletion.}}
+\end{center}
+\vspace{0.5em}
+I have chosen to academically pursue a Master of Science degree in Bioinformatics, culminating with a PhD in Genetics because of my interest in alleviating human suffering and promoting advances in science through the study and application of Genomics to improve crop yields of the rice strain Oryza Sativa Japonica.  The central theme of my research interest is in the cultivation of strains of rice that will yield agronomically viable crop yields when placed under stress from nutrient depleted soils.  Rice is a cereal crop that currently provides a main source of nutrition for roughly half of the world's current population.  The dependence on petroleum-based fertilizer inputs in agriculture have caused food prices to rise as the world's petroleum production becomes unable to keep pace with demand for petroleum products.  My interest in Agronomy developed in tandem with my study of Dr. M. King Hubbert's theory on Peak Oil.
+
+Dr. Hubbert's theory relates to the exploration of oil resources and production following two distinct bell shaped curves.  The production curve lags behind discovery curve, as there is a time variable involved with development of oil fields for petroleum production.  Dr. Hubbert accurately modelled the production curve of the United States in a paper\footnote{\href{http://www.hubbertpeak.com/hubbert/1956/1956.pdf}{Nuclear Energy and the Fossil Fuels, M.K. Hubbert}, Presented before the Spring Meeting of the Southern District, American Petroleum Institute, Plaza Hotel, San Antonio, Texas, March 7–8-9, 1956} he presented to the 1956 meeting of the American Petroleum Institute in San Antonio, Texas, which predicted that overall petroleum production would peak in the United States between 1965, which he considered most likely, and 1970, which he considered an upper-bound case.  His prediction received much criticism, for the most part because many other predictions of oil capacity had been made over the preceding half century and had proven false.  Hubbert became famous when this prediction proved correct in 1970.  Since that time, much work has been done by the Association for the Study of Peak Oil and Gas, or ASPO for short, to model the world's petroleum resources.  It is currently believed by many scientists in the field of petroleum geology, that world oil production has peaked and that we now sit atop what is commonly referred to as ``the undulating plateau."  This is the point at which petroleum production is unable to increase further to meet the ever growing demand for petroleum products.  While the theory has its critics, the underlying science has a solid foundation.  If we consider petroleum to be a fixed, non-renewable natural resource, it follows by logical extension that we will eventually experience a decline in the discovery of new petroleum reservoirs followed shortly thereafter by a decline in production.  Therefore, it is imperative to the well being of the global economy, and to society as a whole, to plan for a future whereby petroleum resources become increasingly expensive as the resource is depleted.
+
+Predicated upon my own belief in the scientific validity of resource depletion modelling, and coupled with increasing resolution in the data regarding world petroleum reserves and other natural resource reserves, in 2004, I decided to explore various aspects of modern society that would be affected by this era of declining petroleum and energy resources.  One very important aspect of declining petroleum resources is the role that these resources play in modern agriculture.  Indirect consumption of mainly oil and natural gas used to manufacture fertilizers and pesticides accounted for 0.6 quadrillion BTU in 2002.\footnote{\label{Schnepf}Schnepf, Randy (19 November 2004). \href{http://www.nationalaglawcenter.org/wp-content/uploads/assets/crs/RL32677.pdf}{``Energy use in Agriculture: Background and Issues"} CRS Report for Congress. Congressional Research Service.}  In a report published by The Royal Society in 2010, agriculture is becoming increasingly dependent on the direct and indirect input of fossil fuels.\footnote{Jeremy Woods, Adrian Williams, John K. Hughes, Mairi Black and Richard Murphy (August 2010) \href{http://rstb.royalsocietypublishing.org/content/365/1554/2991.full}{``Energy and the food system"} Philosophical Transactions of the Royal Society 365 (1554): 2991–3006.}  It is my goal to improve the economic situation of farmers faced with rising fertilizer prices and consumers faced with rising food prices by applying modern scientific techniques into the creation of food crops that will reduce the need for petroleum inputs into the agricultural industry and enable us to improve access to nutritional resources worldwide.
+
+This leads us to the on-going concerns many in the public have with GMO foods.  Currently, in the United States there is no labelling requirement for GMO food products.  I feel that this is a mistake on the part of the FDA and the US Government.  It leads the public to believe that we are hiding something about the safety of GMO Foods when we refuse to accurately label them.  The consumer has a right to make informed choices about what types of products they decide to purchase.  It also speaks poorly to the scientific community's ability to educate and inform the public accurately about GMO foods.  People's perception plays as much a role into the economic viability of such products, some could argue even more so, than the science behind creating such crops.  It is our duty as scientists to educate the public regarding this matter.  It is my firm belief that one should make decisions based on facts and not out of fear or lack of information.  We have failed the public in our duties in this regard.  Instead, we in the scientific community have attempted to argue from the position of authority.  This is not a viable approach in my opinion.  It gives the public the impression that we are attempting to hide something.  Labelling GMO food products, being forward and open about what products are modified, how they are modified, and most importantly, the reasons behind why we have reached a scientific consensus on their safety, is paramount to educating and informing the public about GMO foods.
+
+Unfortunately, it appears that the scientific community is not up to the task of public relations when it comes to explaining science to non-scientists.  This leads to the public not trusting the scientific community when new discoveries are made that can better society.  One only needs to look at declining child vaccination rates\footnote{ David Ropeik (01 August 2011) \href{http://contemporarypediatrics.modernmedicine.com/contemporary-pediatrics/news/modernmedicine/modern-medicine-now/declining-vaccination-rates}{``Declining vaccination rates"}Contemporary Pediatrics} to see another area where we as scientists have failed to be open and up-front in disclosure surrounding advancements in immunology.  While we already have regulatory bodies and laws surrounding the application of genetically modified organisms for use in food products, it is incumbent upon the scientific community to put forward the case for why these crops are safe for human consumption and to educate the public regarding the creation and use of such products.
+
+It is my hope and my intention, that through my research and my actions as a member of the scientific community to improve the level of trust in our relationship with the public.  To assist in the education of the public surrounding GMO food crops, and to alleviate fears and concerns around such crops in cases where such concern is not warranted.  As members of the scientific community, we must hold ourselves up to a higher standard.  It is our duty to ensure that such GMO food products are, in fact, safe for public consumption before releasing such products into the biosphere and the food markets of the world.  Most importantly, we must remember that in serving the public good, we must foster an open relationship with the public and adequately communicate our discoveries to the public at large.  It is through our deeds and words that we will encourage adoption of new technologies by presenting a clear and compelling case for the application of such discoveries for the greater benefit of humanity.
+\end{document}
