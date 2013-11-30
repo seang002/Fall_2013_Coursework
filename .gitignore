@@ -2,6 +2,4 @@
 *.aux
 *.log
 *.synctex.gz
-Audio
-*.mp3
-Video
+Thumbs.db
